@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-
+import "@/styles/globals.css";
 export const Nav = () => {
   const isUserLoggedin = true; // Replace with actual authentication logic
 
